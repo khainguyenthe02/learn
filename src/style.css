@@ -1,0 +1,62 @@
+.gradient-custom {
+  background: 
+  linear-gradient(0deg, #ffffff, #ffc66425), /* Lớp gradient đầu tiên */
+  linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), /* Lớp gradient thứ hai */
+  url('@/assets/imgs/bg10.jpg') no-repeat center / cover; /* Lớp hình ảnh */
+  }
+  .bg-login:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/waves-bg.svg) no-repeat center bottom;
+}
+.gradient-custom-forgot {
+  background: 
+  linear-gradient(0deg, #ffffff, #ffc66425), /* Lớp gradient đầu tiên */
+  linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0)), /* Lớp gradient thứ hai */
+  url('@/assets/imgs/background.avif') no-repeat center / cover; /* Lớp hình ảnh */
+}
+.img-bg{
+  background: 
+  url('@/assets/imgs/bgmain9999.jpg') no-repeat center / cover; /* Lớp hình ảnh */
+  }
+  .filter {
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+.backdrop-blur-lg {
+    --tw-backdrop-blur: blur(16px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)
+}
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)
+}
+
+.dp__outer_menu_wrap {
+  width: 350px !important;
+  height: 400px !important;
+  .dp__menu .dp__relative .dp__theme_light > div {
+    --dp-menu-width: 350px !important;
+    height: 400px !important;
+  }
+}
+
+/* Tạo khoảng cách giữa label và select */
+.custom-label .el-form-item__label {
+  margin-right: 80px;
+}
+
+
+

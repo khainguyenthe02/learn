@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vue3-star-ratings__icon{
+    width: 12px !important;
+    height: 12px !important;
+}
+.button {
+    background-color: #50b473; /* Màu xanh lá nhạt */
+    color: rgb(239, 235, 235); /* Màu chữ trắng */
+    padding: 5px 20px ;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.bg-green{
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(0, 109, 56) 100%, rgb(0, 109, 56) 100%);
+}
+.main > div{
+    height: 100% !important;
+}
+
+.demo-app-calendar{
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+div .fc-view-harness .fc-view-harness-active{
+    height: 100% !important;
+    overflow-y: auto !important;
+}
+
+.fc-scrollgrid tbody{
+    overflow-y: auto !important;
+}
+
+/* Thu nhỏ chiều rộng/thickness của thanh scroll */
+::-webkit-scrollbar {
+    width: 0px;  /* Độ rộng của thanh dọc */
+    height: 6px; /* Độ cao của thanh ngang */
+}
+
+/* Tạo viền bo tròn và màu nền */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Màu và bo tròn cho phần thanh kéo (thumb) */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Đổi màu khi hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+
+  
