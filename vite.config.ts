@@ -8,7 +8,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base: '/',
   plugins: [
-    vue(), 
+    vue(),
     // basicSsl()
   ],
   resolve: {
@@ -20,6 +20,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 8386,
-    // https: true
+    // https: true,
+    allowedHosts: ['learn-xcea.onrender.com'],
   }
 })
