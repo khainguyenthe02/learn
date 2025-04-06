@@ -5,7 +5,7 @@ import type { User } from '@/interface'
 interface InputRequestApi {
   end_point?: string;
   body?: any;
-  method?: string
+  method?: string 
 }
 
 /** Đường dẫn host */
